@@ -1,0 +1,246 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1792068282842,2091,T00_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,55888,6580,2,2,null,0,49,679
+1792068282887,2091,Launch,200,OK,Thread Group 1-1,text,true,,55888,6580,2,2,https://petstore.octoperf.com/actions/Catalog.action,861,0,679
+1792068282887,862,Launch-0,200,OK,Thread Group 1-1,text,true,,1944,364,2,2,https://petstore.octoperf.com/actions/Catalog.action,861,0,679
+1792068283794,752,Launch-1,200,OK,Thread Group 1-1,text,true,,1804,412,2,2,https://petstore.octoperf.com/css/jpetstore.css,752,0,569
+1792068283794,217,Launch-2,200,OK,Thread Group 1-1,text,true,,6528,417,2,2,https://petstore.octoperf.com/images/logo-topbar.svg,215,0,0
+1792068283794,685,Launch-3,200,OK,Thread Group 1-1,bin,true,,1957,410,2,2,https://petstore.octoperf.com/images/cart.gif,685,0,433
+1792068283794,762,Launch-4,200,OK,Thread Group 1-1,bin,true,,339,415,2,2,https://petstore.octoperf.com/images/separator.gif,762,0,570
+1792068283795,684,Launch-5,200,OK,Thread Group 1-1,bin,true,,566,413,2,2,https://petstore.octoperf.com/images/sm_fish.gif,684,0,423
+1792068283795,684,Launch-6,200,OK,Thread Group 1-1,bin,true,,601,413,2,2,https://petstore.octoperf.com/images/sm_dogs.gif,684,0,432
+1792068284016,161,Launch-7,200,OK,Thread Group 1-1,bin,true,,693,417,2,2,https://petstore.octoperf.com/images/sm_reptiles.gif,161,0,0
+1792068284179,167,Launch-8,200,OK,Thread Group 1-1,bin,true,,584,413,2,2,https://petstore.octoperf.com/images/sm_cats.gif,166,0,0
+1792068284347,189,Launch-9,200,OK,Thread Group 1-1,bin,true,,546,414,2,2,https://petstore.octoperf.com/images/sm_birds.gif,189,0,0
+1792068284480,185,Launch-10,200,OK,Thread Group 1-1,bin,true,,734,415,2,2,https://petstore.octoperf.com/images/fish_icon.gif,185,0,0
+1792068284480,176,Launch-11,200,OK,Thread Group 1-1,bin,true,,763,415,2,2,https://petstore.octoperf.com/images/dogs_icon.gif,176,0,0
+1792068284480,173,Launch-12,200,OK,Thread Group 1-1,bin,true,,703,415,2,2,https://petstore.octoperf.com/images/cats_icon.gif,172,0,0
+1792068284537,171,Launch-13,200,OK,Thread Group 1-1,bin,true,,964,419,2,2,https://petstore.octoperf.com/images/reptiles_icon.gif,171,0,0
+1792068284557,202,Launch-14,200,OK,Thread Group 1-1,bin,true,,766,416,2,2,https://petstore.octoperf.com/images/birds_icon.gif,202,0,0
+1792068284653,325,Launch-15,200,OK,Thread Group 1-1,bin,true,,36396,412,2,2,https://petstore.octoperf.com/images/splash.gif,169,0,0
+1792068284987,655,T10_SignIn,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,5842,2575,2,2,null,0,3,0
+1792068284987,152,SignIn,200,OK,Thread Group 1-1,text,true,,1855,536,2,2,https://petstore.octoperf.com/actions/Account.action;jsessionid=AFAA32837DDA74DD00BBD53CFAD8E7E6?signonForm=,152,0,0
+1792068285141,336,SignIn,200,OK,Thread Group 1-1,text,true,,2109,1503,2,2,https://petstore.octoperf.com/actions/Catalog.action,153,0,0
+1792068285141,153,SignIn-0,302,Found,Thread Group 1-1,,true,,234,879,2,2,https://petstore.octoperf.com/actions/Account.action,153,0,0
+1792068285295,182,SignIn-1,200,OK,Thread Group 1-1,text,true,,1875,624,2,2,https://petstore.octoperf.com/actions/Catalog.action,182,0,0
+1792068285478,167,SignIn,200,OK,Thread Group 1-1,text,true,,1878,536,2,2,https://petstore.octoperf.com/actions/Catalog.action,167,0,0
+1792068285646,172,T20_ProductClick,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1652,510,2,2,null,0,0,0
+1792068285646,172,FISH,200,OK,Thread Group 1-1,text,true,,1652,510,2,2,https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=FISH,172,0,0
+1792068285818,160,T30_ClickonProductLink,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1722,542,2,2,null,0,2,0
+1792068285819,160,ClickonProduct,200,OK,Thread Group 1-1,text,true,,1722,542,2,2,https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=FI-SW-01,160,0,0
+1792068285980,786,T40_AddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2032,544,2,2,null,0,2,579
+1792068285981,786,AddToCart,200,OK,Thread Group 1-1,text,true,,2032,544,2,2,https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-1,785,0,579
+1792068284830,1952,T00_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,55884,6580,2,2,null,0,3,425
+1792068284832,1952,Launch,200,OK,Thread Group 1-2,text,true,,55884,6580,2,2,https://petstore.octoperf.com/actions/Catalog.action,613,0,425
+1792068284832,613,Launch-0,200,OK,Thread Group 1-2,text,true,,1940,364,2,2,https://petstore.octoperf.com/actions/Catalog.action,613,0,425
+1792068285449,173,Launch-1,200,OK,Thread Group 1-2,text,true,,1804,412,2,2,https://petstore.octoperf.com/css/jpetstore.css,173,0,0
+1792068285449,489,Launch-2,200,OK,Thread Group 1-2,text,true,,6528,417,2,2,https://petstore.octoperf.com/images/logo-topbar.svg,487,0,328
+1792068285449,530,Launch-3,200,OK,Thread Group 1-2,bin,true,,1957,410,2,2,https://petstore.octoperf.com/images/cart.gif,530,0,367
+1792068285449,491,Launch-4,200,OK,Thread Group 1-2,bin,true,,339,415,2,2,https://petstore.octoperf.com/images/separator.gif,491,0,339
+1792068285450,507,Launch-5,200,OK,Thread Group 1-2,bin,true,,566,413,2,2,https://petstore.octoperf.com/images/sm_fish.gif,507,0,348
+1792068285450,485,Launch-6,200,OK,Thread Group 1-2,bin,true,,601,413,2,2,https://petstore.octoperf.com/images/sm_dogs.gif,485,0,326
+1792068285623,560,Launch-7,200,OK,Thread Group 1-2,bin,true,,693,417,2,2,https://petstore.octoperf.com/images/sm_reptiles.gif,560,0,377
+1792068285936,540,Launch-8,200,OK,Thread Group 1-2,bin,true,,584,413,2,2,https://petstore.octoperf.com/images/sm_cats.gif,540,0,371
+1792068285939,699,Launch-9,200,OK,Thread Group 1-2,bin,true,,546,414,2,2,https://petstore.octoperf.com/images/sm_birds.gif,699,0,419
+1792068285941,526,Launch-10,200,OK,Thread Group 1-2,bin,true,,734,415,2,2,https://petstore.octoperf.com/images/fish_icon.gif,526,0,354
+1792068285957,520,Launch-11,200,OK,Thread Group 1-2,bin,true,,763,415,2,2,https://petstore.octoperf.com/images/dogs_icon.gif,520,0,363
+1792068285980,641,Launch-12,200,OK,Thread Group 1-2,bin,true,,703,415,2,2,https://petstore.octoperf.com/images/cats_icon.gif,641,0,378
+1792068286185,453,Launch-13,200,OK,Thread Group 1-2,bin,true,,964,419,2,2,https://petstore.octoperf.com/images/reptiles_icon.gif,453,0,0
+1792068286468,170,Launch-14,200,OK,Thread Group 1-2,bin,true,,766,416,2,2,https://petstore.octoperf.com/images/birds_icon.gif,170,0,0
+1792068286477,307,Launch-15,200,OK,Thread Group 1-2,bin,true,,36396,412,2,2,https://petstore.octoperf.com/images/splash.gif,162,0,0
+1792068286768,202,T50_UpdateCart,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,3787,852,3,3,null,0,50,0
+1792068286769,198,UpdateCart,200,OK,Thread Group 1-1,text,true,,2039,852,3,3,https://petstore.octoperf.com/actions/Cart.action,198,0,0
+1792068287016,4,Debug Sampler,200,OK,Thread Group 1-1,text,true,,1748,0,3,3,null,0,0,0
+1792068287062,201,T60_ProceedtoCheckout,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2205,489,3,3,null,0,0,0
+1792068287062,201,ProceedtoCheckout,200,OK,Thread Group 1-1,text,true,,2205,489,3,3,https://petstore.octoperf.com/actions/Order.action?newOrderForm=,201,0,0
+1792068286785,630,T10_SignIn,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,5831,2575,3,3,null,0,4,0
+1792068286785,158,SignIn,200,OK,Thread Group 1-2,text,true,,1846,536,3,3,https://petstore.octoperf.com/actions/Account.action;jsessionid=273805FF950E2E01838067A49414ACD7?signonForm=,158,0,0
+1792068286945,314,SignIn,200,OK,Thread Group 1-2,text,true,,2112,1503,3,3,https://petstore.octoperf.com/actions/Catalog.action,152,0,0
+1792068286945,152,SignIn-0,302,Found,Thread Group 1-2,,true,,234,879,3,3,https://petstore.octoperf.com/actions/Account.action,152,0,0
+1792068287097,162,SignIn-1,200,OK,Thread Group 1-2,text,true,,1878,624,3,3,https://petstore.octoperf.com/actions/Catalog.action,162,0,0
+1792068287260,158,SignIn,200,OK,Thread Group 1-2,text,true,,1873,536,3,3,https://petstore.octoperf.com/actions/Catalog.action,158,0,0
+1792068287263,160,T70_ClickonContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1844,1101,3,3,null,0,1,0
+1792068287263,160,ClickonContinue,200,OK,Thread Group 1-1,text,true,,1844,1101,3,3,https://petstore.octoperf.com/actions/Order.action,160,0,0
+1792068287419,165,T20_ProductClick,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,1698,510,3,3,null,0,2,0
+1792068287420,165,DOGS,200,OK,Thread Group 1-2,text,true,,1698,510,3,3,https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=DOGS,165,0,0
+1792068287424,191,T80_ConfirmOrder,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2040,501,3,3,null,0,1,0
+1792068287424,191,Confirm,200,OK,Thread Group 1-1,text,true,,2040,501,3,3,https://petstore.octoperf.com/actions/Order.action?newOrder=&confirmed=true,191,0,0
+1792068287587,158,T30_ClickonProductLink,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,1727,542,3,3,null,0,0,0
+1792068287587,158,ClickonProduct,200,OK,Thread Group 1-2,text,true,,1727,542,3,3,https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=K9-BD-01,158,0,0
+1792068287746,174,T40_AddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,2038,544,3,3,null,0,1,0
+1792068287746,174,AddToCart,200,OK,Thread Group 1-2,text,true,,2038,544,3,3,https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-6,174,0,0
+1792068287921,185,T50_UpdateCart,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,3788,852,3,3,null,0,14,0
+1792068287921,184,UpdateCart,200,OK,Thread Group 1-2,text,true,,2039,852,3,3,https://petstore.octoperf.com/actions/Cart.action,184,0,0
+1792068288119,1,Debug Sampler,200,OK,Thread Group 1-2,text,true,,1749,0,3,3,null,0,0,0
+1792068288121,157,T60_ProceedtoCheckout,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,2204,489,3,3,null,0,0,0
+1792068288121,157,ProceedtoCheckout,200,OK,Thread Group 1-2,text,true,,2204,489,3,3,https://petstore.octoperf.com/actions/Order.action?newOrderForm=,157,0,0
+1792068287617,672,Order Validation,200,OK,Thread Group 1-1,text,true,,0,0,3,3,null,0,0,0
+1792068288278,159,T70_ClickonContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,1842,1101,3,3,null,0,1,0
+1792068288279,159,ClickonContinue,200,OK,Thread Group 1-2,text,true,,1842,1101,3,3,https://petstore.octoperf.com/actions/Order.action,159,0,0
+1792068288438,161,T80_ConfirmOrder,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,2046,501,3,3,null,0,1,0
+1792068288439,161,Confirm,200,OK,Thread Group 1-2,text,true,,2046,501,3,3,https://petstore.octoperf.com/actions/Order.action?newOrder=&confirmed=true,160,0,0
+1792068288601,2,Order Validation,200,OK,Thread Group 1-2,text,true,,0,0,3,3,null,0,0,0
+1792068288603,203,T90_GotoAccount,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,2504,520,3,3,null,0,0,0
+1792068288603,203,GoToMyAccount,200,OK,Thread Group 1-2,text,true,,2504,520,3,3,https://petstore.octoperf.com/actions/Account.action?editAccountForm=,202,0,0
+1792068288290,560,T90_GotoAccount,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2511,520,4,4,null,0,1,390
+1792068288290,560,GoToMyAccount,200,OK,Thread Group 1-1,text,true,,2511,520,4,4,https://petstore.octoperf.com/actions/Account.action?editAccountForm=,560,0,390
+1792068286828,2020,T00_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,55880,6580,4,4,null,0,4,420
+1792068286830,2020,Launch,200,OK,Thread Group 1-3,text,true,,55880,6580,4,4,https://petstore.octoperf.com/actions/Catalog.action,615,0,420
+1792068286830,615,Launch-0,200,OK,Thread Group 1-3,text,true,,1936,364,4,4,https://petstore.octoperf.com/actions/Catalog.action,615,0,420
+1792068287449,536,Launch-1,200,OK,Thread Group 1-3,text,true,,1804,412,4,4,https://petstore.octoperf.com/css/jpetstore.css,536,0,359
+1792068287449,536,Launch-2,200,OK,Thread Group 1-3,text,true,,6528,417,4,4,https://petstore.octoperf.com/images/logo-topbar.svg,536,0,355
+1792068287449,198,Launch-3,200,OK,Thread Group 1-3,bin,true,,1957,410,4,4,https://petstore.octoperf.com/images/cart.gif,198,0,0
+1792068287449,536,Launch-4,200,OK,Thread Group 1-3,bin,true,,339,415,4,4,https://petstore.octoperf.com/images/separator.gif,536,0,360
+1792068287449,565,Launch-5,200,OK,Thread Group 1-3,bin,true,,566,413,4,4,https://petstore.octoperf.com/images/sm_fish.gif,565,0,391
+1792068287449,536,Launch-6,200,OK,Thread Group 1-3,bin,true,,601,413,4,4,https://petstore.octoperf.com/images/sm_dogs.gif,536,0,374
+1792068287649,510,Launch-7,200,OK,Thread Group 1-3,bin,true,,693,417,4,4,https://petstore.octoperf.com/images/sm_reptiles.gif,510,0,338
+1792068287986,580,Launch-8,200,OK,Thread Group 1-3,bin,true,,584,413,4,4,https://petstore.octoperf.com/images/sm_cats.gif,580,0,346
+1792068287986,580,Launch-9,200,OK,Thread Group 1-3,bin,true,,546,414,4,4,https://petstore.octoperf.com/images/sm_birds.gif,580,0,338
+1792068287986,580,Launch-10,200,OK,Thread Group 1-3,bin,true,,734,415,4,4,https://petstore.octoperf.com/images/fish_icon.gif,580,0,347
+1792068287986,576,Launch-11,200,OK,Thread Group 1-3,bin,true,,763,415,4,4,https://petstore.octoperf.com/images/dogs_icon.gif,576,0,337
+1792068288016,546,Launch-12,200,OK,Thread Group 1-3,bin,true,,703,415,4,4,https://petstore.octoperf.com/images/cats_icon.gif,546,0,326
+1792068288160,180,Launch-13,200,OK,Thread Group 1-3,bin,true,,964,419,4,4,https://petstore.octoperf.com/images/reptiles_icon.gif,180,0,0
+1792068288341,386,Launch-14,200,OK,Thread Group 1-3,bin,true,,766,416,4,4,https://petstore.octoperf.com/images/birds_icon.gif,386,0,0
+1792068288563,287,Launch-15,200,OK,Thread Group 1-3,bin,true,,36396,412,4,4,https://petstore.octoperf.com/images/splash.gif,164,0,0
+1792068288853,985,T10_SignIn,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-3,,true,,5834,2575,4,4,null,0,1,0
+1792068288853,492,SignIn,200,OK,Thread Group 1-3,text,true,,1851,536,4,4,https://petstore.octoperf.com/actions/Account.action;jsessionid=6BD2E1B48685B05EF9FACC6B26EE9FEA?signonForm=,491,0,0
+1792068289346,323,SignIn,200,OK,Thread Group 1-3,text,true,,2109,1503,4,4,https://petstore.octoperf.com/actions/Catalog.action,155,0,0
+1792068289346,155,SignIn-0,302,Found,Thread Group 1-3,,true,,234,879,4,4,https://petstore.octoperf.com/actions/Account.action,155,0,0
+1792068289501,168,SignIn-1,200,OK,Thread Group 1-3,text,true,,1875,624,4,4,https://petstore.octoperf.com/actions/Catalog.action,168,0,0
+1792068289669,170,SignIn,200,OK,Thread Group 1-3,text,true,,1874,536,4,4,https://petstore.octoperf.com/actions/Catalog.action,170,0,0
+1792068289840,159,T20_ProductClick,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,1624,510,4,4,null,0,1,0
+1792068289840,159,CATS,200,OK,Thread Group 1-3,text,true,,1624,510,4,4,https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=CATS,159,0,0
+1792068290000,184,T30_ClickonProductLink,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,1732,543,4,4,null,0,0,0
+1792068290000,184,ClickonProduct,200,OK,Thread Group 1-3,text,true,,1732,543,4,4,https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=FL-DSH-01,184,0,0
+1792068290185,158,T40_AddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,2031,545,4,4,null,0,0,0
+1792068290185,158,AddToCart,200,OK,Thread Group 1-3,text,true,,2031,545,4,4,https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-14,158,0,0
+1792068290344,159,T50_UpdateCart,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,3802,853,4,4,null,0,6,0
+1792068290344,159,UpdateCart,200,OK,Thread Group 1-3,text,true,,2039,853,4,4,https://petstore.octoperf.com/actions/Cart.action,159,0,0
+1792068290509,0,Debug Sampler,200,OK,Thread Group 1-3,text,true,,1763,0,4,4,null,0,0,0
+1792068290510,176,T60_ProceedtoCheckout,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,2204,489,4,4,null,0,0,0
+1792068290510,176,ProceedtoCheckout,200,OK,Thread Group 1-3,text,true,,2204,489,4,4,https://petstore.octoperf.com/actions/Order.action?newOrderForm=,176,0,0
+1792068290687,195,T70_ClickonContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,1839,1101,5,5,null,0,0,0
+1792068290687,195,ClickonContinue,200,OK,Thread Group 1-3,text,true,,1839,1101,5,5,https://petstore.octoperf.com/actions/Order.action,194,0,0
+1792068288824,2333,T00_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,55882,6580,5,5,null,0,2,825
+1792068288826,2333,Launch,200,OK,Thread Group 1-4,text,true,,55882,6580,5,5,https://petstore.octoperf.com/actions/Catalog.action,997,0,825
+1792068288826,997,Launch-0,200,OK,Thread Group 1-4,text,true,,1938,364,5,5,https://petstore.octoperf.com/actions/Catalog.action,997,0,825
+1792068289829,490,Launch-1,200,OK,Thread Group 1-4,text,true,,1804,412,5,5,https://petstore.octoperf.com/css/jpetstore.css,490,0,335
+1792068289829,465,Launch-2,200,OK,Thread Group 1-4,text,true,,6528,417,5,5,https://petstore.octoperf.com/images/logo-topbar.svg,465,0,314
+1792068289829,490,Launch-3,200,OK,Thread Group 1-4,bin,true,,1957,410,5,5,https://petstore.octoperf.com/images/cart.gif,490,0,335
+1792068289829,514,Launch-4,200,OK,Thread Group 1-4,bin,true,,339,415,5,5,https://petstore.octoperf.com/images/separator.gif,514,0,340
+1792068289829,170,Launch-5,200,OK,Thread Group 1-4,bin,true,,566,413,5,5,https://petstore.octoperf.com/images/sm_fish.gif,170,0,0
+1792068289829,490,Launch-6,200,OK,Thread Group 1-4,bin,true,,601,413,5,5,https://petstore.octoperf.com/images/sm_dogs.gif,490,0,328
+1792068290000,494,Launch-7,200,OK,Thread Group 1-4,bin,true,,693,417,5,5,https://petstore.octoperf.com/images/sm_reptiles.gif,494,0,344
+1792068290295,583,Launch-8,200,OK,Thread Group 1-4,bin,true,,584,413,5,5,https://petstore.octoperf.com/images/sm_cats.gif,583,0,389
+1792068290319,558,Launch-9,200,OK,Thread Group 1-4,bin,true,,546,414,5,5,https://petstore.octoperf.com/images/sm_birds.gif,558,0,365
+1792068290319,559,Launch-10,200,OK,Thread Group 1-4,bin,true,,734,415,5,5,https://petstore.octoperf.com/images/fish_icon.gif,559,0,367
+1792068290320,561,Launch-11,200,OK,Thread Group 1-4,bin,true,,763,415,5,5,https://petstore.octoperf.com/images/dogs_icon.gif,561,0,368
+1792068290344,340,Launch-12,200,OK,Thread Group 1-4,bin,true,,703,415,5,5,https://petstore.octoperf.com/images/cats_icon.gif,340,0,0
+1792068290494,384,Launch-13,200,OK,Thread Group 1-4,bin,true,,964,419,5,5,https://petstore.octoperf.com/images/reptiles_icon.gif,384,0,0
+1792068290685,343,Launch-14,200,OK,Thread Group 1-4,bin,true,,766,416,5,5,https://petstore.octoperf.com/images/birds_icon.gif,343,0,0
+1792068290878,281,Launch-15,200,OK,Thread Group 1-4,bin,true,,36396,412,5,5,https://petstore.octoperf.com/images/splash.gif,171,0,0
+1792068291160,703,T10_SignIn,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-4,,true,,5833,2575,5,5,null,0,3,0
+1792068291160,164,SignIn,200,OK,Thread Group 1-4,text,true,,1847,536,5,5,https://petstore.octoperf.com/actions/Account.action;jsessionid=354023194736FE57E5B40CB6AE84D283?signonForm=,164,0,0
+1792068291326,378,SignIn,200,OK,Thread Group 1-4,text,true,,2112,1503,5,5,https://petstore.octoperf.com/actions/Catalog.action,194,0,0
+1792068291326,194,SignIn-0,302,Found,Thread Group 1-4,,true,,234,879,5,5,https://petstore.octoperf.com/actions/Account.action,194,0,0
+1792068291520,184,SignIn-1,200,OK,Thread Group 1-4,text,true,,1878,624,5,5,https://petstore.octoperf.com/actions/Catalog.action,184,0,0
+1792068291705,161,SignIn,200,OK,Thread Group 1-4,text,true,,1874,536,5,5,https://petstore.octoperf.com/actions/Catalog.action,161,0,0
+1792068291866,170,T20_ProductClick,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,1632,514,5,5,null,0,1,0
+1792068291867,170,REPTILES,200,OK,Thread Group 1-4,text,true,,1632,514,5,5,https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=REPTILES,170,0,0
+1792068292037,183,T30_ClickonProductLink,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,1727,542,5,5,null,0,1,0
+1792068292038,183,ClickonProduct,200,OK,Thread Group 1-4,text,true,,1727,542,5,5,https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=RP-SN-01,183,0,0
+1792068290882,1436,T80_ConfirmOrder,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,2043,501,5,5,null,0,1,0
+1792068290882,1436,Confirm,200,OK,Thread Group 1-3,text,true,,2043,501,5,5,https://petstore.octoperf.com/actions/Order.action?newOrder=&confirmed=true,1436,0,0
+1792068292319,1,Order Validation,200,OK,Thread Group 1-3,text,true,,0,0,5,5,null,0,0,0
+1792068292221,175,T40_AddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,2035,545,5,5,null,0,2,0
+1792068292222,175,AddToCart,200,OK,Thread Group 1-4,text,true,,2035,545,5,5,https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-11,175,0,0
+1792068292320,168,T90_GotoAccount,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,2508,520,5,5,null,0,0,0
+1792068292320,168,GoToMyAccount,200,OK,Thread Group 1-3,text,true,,2508,520,5,5,https://petstore.octoperf.com/actions/Account.action?editAccountForm=,168,0,0
+1792068292398,189,T50_UpdateCart,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,3800,853,5,5,null,0,5,0
+1792068292398,188,UpdateCart,200,OK,Thread Group 1-4,text,true,,2042,853,5,5,https://petstore.octoperf.com/actions/Cart.action,188,0,0
+1792068292591,1,Debug Sampler,200,OK,Thread Group 1-4,text,true,,1758,0,5,5,null,0,0,0
+1792068290821,1835,T00_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,55885,6580,5,5,null,0,3,351
+1792068290823,1835,Launch,200,OK,Thread Group 1-5,text,true,,55885,6580,5,5,https://petstore.octoperf.com/actions/Catalog.action,509,0,351
+1792068290823,510,Launch-0,200,OK,Thread Group 1-5,text,true,,1941,364,5,5,https://petstore.octoperf.com/actions/Catalog.action,509,0,351
+1792068291336,584,Launch-1,200,OK,Thread Group 1-5,text,true,,1804,412,5,5,https://petstore.octoperf.com/css/jpetstore.css,584,0,402
+1792068291336,527,Launch-2,200,OK,Thread Group 1-5,text,true,,6528,417,5,5,https://petstore.octoperf.com/images/logo-topbar.svg,524,0,369
+1792068291336,584,Launch-3,200,OK,Thread Group 1-5,bin,true,,1957,410,5,5,https://petstore.octoperf.com/images/cart.gif,584,0,393
+1792068291336,551,Launch-4,200,OK,Thread Group 1-5,bin,true,,339,415,5,5,https://petstore.octoperf.com/images/separator.gif,551,0,380
+1792068291336,514,Launch-5,200,OK,Thread Group 1-5,bin,true,,566,413,5,5,https://petstore.octoperf.com/images/sm_fish.gif,514,0,354
+1792068291336,182,Launch-6,200,OK,Thread Group 1-5,bin,true,,601,413,5,5,https://petstore.octoperf.com/images/sm_dogs.gif,182,0,0
+1792068291518,544,Launch-7,200,OK,Thread Group 1-5,bin,true,,693,417,5,5,https://petstore.octoperf.com/images/sm_reptiles.gif,544,0,368
+1792068291852,489,Launch-8,200,OK,Thread Group 1-5,bin,true,,584,413,5,5,https://petstore.octoperf.com/images/sm_cats.gif,489,0,322
+1792068291864,474,Launch-9,200,OK,Thread Group 1-5,bin,true,,546,414,5,5,https://petstore.octoperf.com/images/sm_birds.gif,474,0,304
+1792068291888,509,Launch-10,200,OK,Thread Group 1-5,bin,true,,734,415,5,5,https://petstore.octoperf.com/images/fish_icon.gif,509,0,337
+1792068291921,317,Launch-11,200,OK,Thread Group 1-5,bin,true,,763,415,5,5,https://petstore.octoperf.com/images/dogs_icon.gif,317,0,0
+1792068291921,541,Launch-12,200,OK,Thread Group 1-5,bin,true,,703,415,5,5,https://petstore.octoperf.com/images/cats_icon.gif,541,0,358
+1792068292063,358,Launch-13,200,OK,Thread Group 1-5,bin,true,,964,419,5,5,https://petstore.octoperf.com/images/reptiles_icon.gif,358,0,0
+1792068292239,250,Launch-14,200,OK,Thread Group 1-5,bin,true,,766,416,5,5,https://petstore.octoperf.com/images/birds_icon.gif,250,0,0
+1792068292339,319,Launch-15,200,OK,Thread Group 1-5,bin,true,,36396,412,5,5,https://petstore.octoperf.com/images/splash.gif,155,0,0
+1792068292592,289,T60_ProceedtoCheckout,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,2201,489,5,5,null,0,0,0
+1792068292592,289,ProceedtoCheckout,200,OK,Thread Group 1-4,text,true,,2201,489,5,5,https://petstore.octoperf.com/actions/Order.action?newOrderForm=,289,0,0
+1792068292880,165,T70_ClickonContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,1843,1101,5,5,null,0,1,0
+1792068292881,165,ClickonContinue,200,OK,Thread Group 1-4,text,true,,1843,1101,5,5,https://petstore.octoperf.com/actions/Order.action,165,0,0
+1792068292659,748,T10_SignIn,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-5,,true,,5831,2575,5,5,null,0,2,0
+1792068292660,226,SignIn,200,OK,Thread Group 1-5,text,true,,1849,536,5,5,https://petstore.octoperf.com/actions/Account.action;jsessionid=799BF3CD90B67E46D6A4A91DAE041995?signonForm=,226,0,0
+1792068292885,354,SignIn,200,OK,Thread Group 1-5,text,true,,2108,1503,5,5,https://petstore.octoperf.com/actions/Catalog.action,161,0,0
+1792068292885,161,SignIn-0,302,Found,Thread Group 1-5,,true,,234,879,5,5,https://petstore.octoperf.com/actions/Account.action,161,0,0
+1792068293047,192,SignIn-1,200,OK,Thread Group 1-5,text,true,,1874,624,5,5,https://petstore.octoperf.com/actions/Catalog.action,192,0,0
+1792068293240,168,SignIn,200,OK,Thread Group 1-5,text,true,,1874,536,5,5,https://petstore.octoperf.com/actions/Catalog.action,168,0,0
+1792068293409,188,T20_ProductClick,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,1632,511,5,5,null,0,0,0
+1792068293409,188,BIRDS,200,OK,Thread Group 1-5,text,true,,1632,511,5,5,https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=BIRDS,188,0,0
+1792068293598,171,T30_ClickonProductLink,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,1710,542,5,5,null,0,1,0
+1792068293598,171,ClickonProduct,200,OK,Thread Group 1-5,text,true,,1710,542,5,5,https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=AV-CB-01,171,0,0
+1792068293770,836,T40_AddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,2044,545,5,5,null,0,1,0
+1792068293771,836,AddToCart,200,OK,Thread Group 1-5,text,true,,2044,545,5,5,https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-18,836,0,0
+1792068293047,1560,T80_ConfirmOrder,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,2044,501,5,5,null,0,1,0
+1792068293047,1560,Confirm,200,OK,Thread Group 1-4,text,true,,2044,501,5,5,https://petstore.octoperf.com/actions/Order.action?newOrder=&confirmed=true,1560,0,0
+1792068294608,2,Order Validation,200,OK,Thread Group 1-4,text,true,,0,0,5,5,null,0,0,0
+1792068294610,188,T90_GotoAccount,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,2510,520,5,5,null,0,0,0
+1792068294610,188,GoToMyAccount,200,OK,Thread Group 1-4,text,true,,2510,520,5,5,https://petstore.octoperf.com/actions/Account.action?editAccountForm=,188,0,0
+1792068294608,190,T50_UpdateCart,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,3810,853,5,5,null,0,10,0
+1792068294608,190,UpdateCart,200,OK,Thread Group 1-5,text,true,,2048,853,5,5,https://petstore.octoperf.com/actions/Cart.action,190,0,0
+1792068294807,0,Debug Sampler,200,OK,Thread Group 1-5,text,true,,1762,0,5,5,null,0,0,0
+1792068294809,282,T60_ProceedtoCheckout,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,2204,489,5,5,null,0,1,0
+1792068294809,282,ProceedtoCheckout,200,OK,Thread Group 1-5,text,true,,2204,489,5,5,https://petstore.octoperf.com/actions/Order.action?newOrderForm=,282,0,0
+1792068295092,225,T70_ClickonContinue,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,1842,1101,5,5,null,0,0,0
+1792068295092,225,ClickonContinue,200,OK,Thread Group 1-5,text,true,,1842,1101,5,5,https://petstore.octoperf.com/actions/Order.action,224,0,0
+1792068295317,170,T80_ConfirmOrder,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,2052,501,5,5,null,0,1,0
+1792068295318,170,Confirm,200,OK,Thread Group 1-5,text,true,,2052,501,5,5,https://petstore.octoperf.com/actions/Order.action?newOrder=&confirmed=true,170,0,0
+1792068295489,0,Order Validation,200,OK,Thread Group 1-5,text,true,,0,0,5,5,null,0,0,0
+1792068295490,196,T90_GotoAccount,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,2510,520,5,5,null,0,0,0
+1792068295490,196,GoToMyAccount,200,OK,Thread Group 1-5,text,true,,2510,520,5,5,https://petstore.octoperf.com/actions/Account.action?editAccountForm=,196,0,0
+1792068288807,12131,T100_MyOrders,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,1170644,507,5,5,null,0,0,0
+1792068288807,12131,MyOrders,200,OK,Thread Group 1-2,text,true,,1170644,507,5,5,https://petstore.octoperf.com/actions/Order.action?listOrders=,2179,0,0
+1792068300937,764,T120_Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,3947,1479,5,5,null,0,2,0
+1792068300937,561,SignOut,200,OK,Thread Group 1-2,text,true,,2127,989,5,5,https://petstore.octoperf.com/actions/Catalog.action,157,0,0
+1792068300937,157,SignOut-0,302,Found,Thread Group 1-2,,true,,234,499,5,5,https://petstore.octoperf.com/actions/Account.action?signoff=,157,0,0
+1792068301095,403,SignOut-1,200,OK,Thread Group 1-2,text,true,,1893,490,5,5,https://petstore.octoperf.com/actions/Catalog.action,403,0,0
+1792068301499,203,SignOut,200,OK,Thread Group 1-2,text,true,,1820,490,5,5,https://petstore.octoperf.com/actions/Catalog.action,203,0,0
+1792068288851,13861,T100_MyOrders,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1170643,507,4,4,null,0,0,0
+1792068288851,13861,MyOrders,200,OK,Thread Group 1-1,text,true,,1170643,507,4,4,https://petstore.octoperf.com/actions/Order.action?listOrders=,3515,0,0
+1792068302711,550,T120_Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,3937,1479,4,4,null,0,-1,0
+1792068302711,391,SignOut,200,OK,Thread Group 1-1,text,true,,2121,989,4,4,https://petstore.octoperf.com/actions/Catalog.action,199,0,0
+1792068302711,199,SignOut-0,302,Found,Thread Group 1-1,,true,,234,499,4,4,https://petstore.octoperf.com/actions/Account.action?signoff=,199,0,0
+1792068302911,191,SignOut-1,200,OK,Thread Group 1-1,text,true,,1887,490,4,4,https://petstore.octoperf.com/actions/Catalog.action,191,0,0
+1792068303102,159,SignOut,200,OK,Thread Group 1-1,text,true,,1816,490,4,4,https://petstore.octoperf.com/actions/Catalog.action,159,0,0
+1792068292489,12795,T100_MyOrders,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,1170662,507,3,3,null,0,1,0
+1792068292489,12795,MyOrders,200,OK,Thread Group 1-3,text,true,,1170662,507,3,3,https://petstore.octoperf.com/actions/Order.action?listOrders=,2165,0,0
+1792068305285,655,T120_Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,3944,1479,3,3,null,0,1,0
+1792068305285,486,SignOut,200,OK,Thread Group 1-3,text,true,,2127,989,3,3,https://petstore.octoperf.com/actions/Catalog.action,174,0,0
+1792068305285,174,SignOut-0,302,Found,Thread Group 1-3,,true,,234,499,3,3,https://petstore.octoperf.com/actions/Account.action?signoff=,174,0,0
+1792068305459,312,SignOut-1,200,OK,Thread Group 1-3,text,true,,1893,490,3,3,https://petstore.octoperf.com/actions/Catalog.action,312,0,0
+1792068305772,169,SignOut,200,OK,Thread Group 1-3,text,true,,1817,490,3,3,https://petstore.octoperf.com/actions/Catalog.action,169,0,0
+1792068294799,13043,T100_MyOrders,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,1170638,507,2,2,null,0,0,0
+1792068294799,13043,MyOrders,200,OK,Thread Group 1-4,text,true,,1170638,507,2,2,https://petstore.octoperf.com/actions/Order.action?listOrders=,2573,0,0
+1792068295687,12478,T100_MyOrders,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,1170640,507,2,2,null,0,0,0
+1792068295687,12478,MyOrders,200,OK,Thread Group 1-5,text,true,,1170640,507,2,2,https://petstore.octoperf.com/actions/Order.action?listOrders=,2234,0,0
+1792068307843,512,T120_Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,3940,1479,2,2,null,0,3,0
+1792068307844,351,SignOut,200,OK,Thread Group 1-4,text,true,,2125,989,2,2,https://petstore.octoperf.com/actions/Catalog.action,154,0,0
+1792068307844,154,SignOut-0,302,Found,Thread Group 1-4,,true,,234,499,2,2,https://petstore.octoperf.com/actions/Account.action?signoff=,154,0,0
+1792068307997,198,SignOut-1,200,OK,Thread Group 1-4,text,true,,1891,490,2,2,https://petstore.octoperf.com/actions/Catalog.action,198,0,0
+1792068308196,161,SignOut,200,OK,Thread Group 1-4,text,true,,1815,490,2,2,https://petstore.octoperf.com/actions/Catalog.action,160,0,0
+1792068308165,557,T120_Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,3939,1479,1,1,null,0,0,0
+1792068308165,390,SignOut,200,OK,Thread Group 1-5,text,true,,2124,989,1,1,https://petstore.octoperf.com/actions/Catalog.action,191,0,0
+1792068308165,191,SignOut-0,302,Found,Thread Group 1-5,,true,,234,499,1,1,https://petstore.octoperf.com/actions/Account.action?signoff=,191,0,0
+1792068308357,198,SignOut-1,200,OK,Thread Group 1-5,text,true,,1890,490,1,1,https://petstore.octoperf.com/actions/Catalog.action,198,0,0
+1792068308555,167,SignOut,200,OK,Thread Group 1-5,text,true,,1815,490,1,1,https://petstore.octoperf.com/actions/Catalog.action,166,0,0
