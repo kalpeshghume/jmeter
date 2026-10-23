@@ -30,7 +30,7 @@
       </ConfigTestElement>
       <hashTree/>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group">
-        <stringProp name="ThreadGroup.num_threads">${__P(TOTAL_THREADS,5)}</stringProp>
+        <stringProp name="ThreadGroup.num_threads">${__P(TOTAL_THREADS,1)}</stringProp>
         <stringProp name="ThreadGroup.ramp_time">${__P(RAMP_UP,10)}</stringProp>
         <stringProp name="ThreadGroup.duration">${__P(TEST_DURATION,300)}</stringProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
