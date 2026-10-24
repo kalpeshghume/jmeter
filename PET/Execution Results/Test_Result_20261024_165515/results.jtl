@@ -1,0 +1,16 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1792841124006,1564,T00_Launch,404,"Number of samples in transaction : 1, number of failing samples : 1",Thread Group 1-1,,false,,1019,364,1,1,null,0,147,1422
+1792841124152,1564,Launch,404,Not Found,Thread Group 1-1,text,false,,1019,364,1,1,https://petstore.octoperf.com/actions/Catalog.action,1564,0,1422
+1792841125719,410,T10_SignIn,404,"Number of samples in transaction : 3, number of failing samples : 3",Thread Group 1-1,,false,,3094,1626,1,1,null,0,4,0
+1792841125720,137,SignIn,404,Not Found,Thread Group 1-1,text,false,,1056,476,1,1,https://petstore.octoperf.com/actions/Account.action;jsessionid=No%20Session%20Id%20Found?signonForm=,137,0,0
+1792841125858,139,SignIn,404,Not Found,Thread Group 1-1,text,false,,1019,680,1,1,https://petstore.octoperf.com/actions/Account.action,139,0,0
+1792841125999,134,SignIn,404,Not Found,Thread Group 1-1,text,false,,1019,470,1,1,https://petstore.octoperf.com/actions/Catalog.action,134,0,0
+1792841126133,134,T20_ProductClick,404,"Number of samples in transaction : 1, number of failing samples : 1",Thread Group 1-1,,false,,1019,457,1,1,null,0,2,0
+1792841126134,134,FISH,404,Not Found,Thread Group 1-1,text,false,,1019,457,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=FISH,134,0,0
+1792841126269,0,T30_ClickonProductLink,Non HTTP response code: java.net.URISyntaxException,"Number of samples in transaction : 1, number of failing samples : 1",Thread Group 1-1,,false,,1246,0,1,1,null,0,2,0
+1792841126270,0,ClickonProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 78: https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=No Products Found,Thread Group 1-1,text,false,,1246,0,1,1,https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=No Products Found,0,0,0
+1792841126271,0,T40_AddToCart,Non HTTP response code: java.net.URISyntaxException,"Number of samples in transaction : 1, number of failing samples : 1",Thread Group 1-1,,false,,1246,0,1,1,null,0,1,0
+1792841126271,0,AddToCart,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 81: https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=No Items Found,Thread Group 1-1,text,false,,1246,0,1,1,https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=No Items Found,0,0,0
+1792841126272,140,T50_UpdateCart,404,"Number of samples in transaction : 2, number of failing samples : 1",Thread Group 1-1,,false,,1612,662,1,1,null,0,64,0
+1792841126272,138,UpdateCart,404,Not Found,Thread Group 1-1,text,false,,1016,662,1,1,https://petstore.octoperf.com/actions/Cart.action,138,0,0
+1792841126474,2,Debug Sampler,200,OK,Thread Group 1-1,text,true,,596,0,1,1,null,0,0,0
